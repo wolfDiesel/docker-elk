@@ -50,6 +50,8 @@ services:
     configs:
       - source: kibana_config
         target: /usr/share/kibana/config/kibana.yml
+    environment:
+      - XPACK_SECURITY_ENABLED=true
     networks:
       - elk
     deploy:
