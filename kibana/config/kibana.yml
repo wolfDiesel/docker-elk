@@ -11,6 +11,6 @@ monitoring.ui.container.elasticsearch.enabled: true
 #
 elasticsearch.username: elastic
 elasticsearch.password: changeme
-xpack.security.sameSiteCookies: "None"
+#xpack.security.sameSiteCookies: "None"
 xpack.security.secureCookies: false
 xpack.security.authc.selector.enabled: true
