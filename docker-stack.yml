@@ -18,6 +18,8 @@ services:
       discovery.type: single-node
       # Force publishing on the 'elk' overlay.
       network.publish_host: _eth0_
+    volumes:
+     - /data/databae/elastic/dev:/usr/share/elasticsearch/data
     networks:
       - elk
     deploy:
